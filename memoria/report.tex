@@ -1,0 +1,87 @@
+\documentclass[es]{uc3mthesisIEEE}
+
+
+\usepackage{import}
+\usepackage{enumitem}  % control item separation -> \begin{itemize}[nosep]
+\usepackage{lipsum}  % dummy text
+\usepackage{placeins}  % \FloatBarrier -> prevents figures and tables from passing that point
+
+\usepackage{mymacros}  % report-specific macros
+
+
+% silence ht warnings
+\usepackage{silence}
+\WarningFilter{latex}{`h' float specifier changed to `ht'}
+
+
+% REFERENCES
+\addbibresource{references.bib}  % bibliography file
+\import{}{glossary.tex}  % glossary file
+
+
+%	DOCUMENT
+
+% setup
+\degree{Ingeniería Informática}
+\title{Detección de tumores cerebrales con redes de neuronas artificiales}
+\shorttitle{Detección de tumores cerebrales}
+\author{Tomás Mendizábal -- 100461170 \\
+        Adrián Cortázar Lería -- 100545860 \\
+        Ángel Pérez Navas -- 100472200 \\
+        José Antonio Verde Jiménez -- 100472221}
+\advisors{Elías Nezamoleslami}
+\place{Leganés, Madrid, España}
+\date{Diciembre 2024}
+
+\begin{document}
+
+  % COVER
+  \makecover
+
+
+  % EPIGRAPH
+  \makeepigraph
+    {Tiene que ser formato TFG}  % quote
+    {Anónimo}  % author
+    {}  % source
+
+  % ABSTRACT
+  \begin{abstract}
+    \lipsum[1-3]
+    \keywords{patata \sep papas \sep manzanas de tierra}
+  \end{abstract}
+
+
+  % TOC
+  \tableofcontents
+  \listoffigures
+  \listoftables
+
+
+  % THESIS
+  \begin{thesis}
+    % \includefrom{parts/}{introduction.tex}
+  \end{thesis}
+
+
+  % BIBLIOGRAPHY
+  \cleardoublepage
+  \label{bibliography}
+  \printbibliography[heading=bibintoc]
+
+
+  % GLOSSARY
+  \cleardoublepage
+  \label{glossary}
+  \printglossaries
+  % \printnoidxglossaries[type=\acronymtype]  % slower, but no need to do $ makeglossaries report
+
+
+  % APPENDICES
+  % \begin{appendices}
+  %   \chapter{My stuff}
+  %   \lipsum
+  % \end{appendices}
+
+
+\end{document}
