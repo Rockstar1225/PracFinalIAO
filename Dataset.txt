@@ -1,1 +1,14 @@
 https://www.kaggle.com/code/ruslankl/brain-tumor-detection-v1-0-cnn-vgg-16/input
+
+Analizamos el datset
+Filtrar el dataset (aumentar disminuir)
+Tmaños de imágenes, resize
+
+Preprocesar las imágenes
+CNN, comprobar los epochs
+
+Training y validation
+Accuraccy
+Matriz de confusión
+Analissis de complejidad
+Overfitting (complexity curve y learning curve)
