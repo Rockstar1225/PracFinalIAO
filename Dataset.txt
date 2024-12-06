@@ -12,3 +12,8 @@ Accuraccy
 Matriz de confusión
 Analissis de complejidad
 Overfitting (complexity curve y learning curve)
+
+
+dataset para usar el modelo:
+https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection
+
