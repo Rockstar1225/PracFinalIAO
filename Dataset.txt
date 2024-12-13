@@ -1,19 +1,6 @@
-https://www.kaggle.com/code/ruslankl/brain-tumor-detection-v1-0-cnn-vgg-16/input
+Dataset para entrenamiento:
+https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection
 
-Analizamos el datset
-Filtrar el dataset (aumentar disminuir)
-Tmaños de imágenes, resize
-
-Preprocesar las imágenes
-CNN, comprobar los epochs
-
-Training y validation
-Accuraccy
-Matriz de confusión
-Analissis de complejidad
-Overfitting (complexity curve y learning curve)
-
-
-dataset para usar el modelo:
+Dataset para las predicciones:
 https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection
 
